@@ -1,0 +1,206 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+.logo {
+  text-transform: uppercase;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.logo-part {
+  color: #2e2f42;
+}
+
+.nav-link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
+
+.address-link {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
+/* hero */
+.section-hero {
+  background-color: #2e2f42;
+}
+
+.hero-tittle {
+  text-align: center;
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.hero-btn {
+  cursor: pointer;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
+/* !!!!!!!!!!!!!!!!!  ADVENTAGES !!!!!!!!!!!!!!!!!!!!!! */
+.section-adventages {
+}
+
+.title-adventages {
+}
+
+.list-adventages {
+}
+
+.item-list-adventages {
+}
+
+.title-item-adventages {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+}
+
+.text-item-adventages {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* !!!!!!!!!!!!!!!! SECTION TEAM !!!!!!!!!!!!!!!!!!!! */
+.section-team {
+  background-color: #f4f4fd;
+}
+
+.title-team {
+  background-color: #ffffff;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+
+.img-item-list {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text-item-team {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.img-item {
+}
+
+.img-list {
+  background-color: #ffffff;
+}
+
+/* !!!!!!!!!!!!!!! PORTFOLIO !!!!!!!!!!!!!!!!!!!! */
+
+.section-portfolio {
+}
+
+.title-portfolio {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.list-portfolio {
+}
+
+.item-list-porfolio {
+}
+
+.title-item-portfoli {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text-item-portfolio {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* !!!!!!!!!!! FOOTER !!!!!!!!!!!!!!! */
+
+.footer {
+  background: #2e2f42;
+}
+.logo-footer {
+  text-transform: uppercase;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.logo-footer .logo-part {
+  color: #f4f4fd;
+}
+
+.text-footer {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
