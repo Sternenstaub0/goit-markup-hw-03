@@ -9,6 +9,39 @@ a {
 ul,
 ol {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  border: 1px tomato solid;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  align-items: center;
 }
 .logo {
   text-transform: uppercase;
@@ -18,10 +51,16 @@ ol {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
 }
 
 .logo-part {
   color: #2e2f42;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
 }
 
 .nav-link {
@@ -30,6 +69,8 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -37,8 +78,12 @@ ol {
 }
 .address {
   font-style: normal;
+  margin-left: auto;
 }
-
+.address-list {
+  display: flex;
+  gap: 40px;
+}
 .address-link {
   color: #434455;
   font-size: 16px;
@@ -53,6 +98,8 @@ ol {
 /* hero */
 .section-hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-tittle {
@@ -62,6 +109,9 @@ ol {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -72,6 +122,9 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  margin: 0 auto;
+  display: block;
+  padding: 16px 32px;
 }
 
 .hero-btn:hover,
@@ -81,15 +134,20 @@ ol {
 
 /* !!!!!!!!!!!!!!!!!  ADVENTAGES !!!!!!!!!!!!!!!!!!!!!! */
 .section-adventages {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .title-adventages {
+  display: none;
 }
-
 .list-adventages {
+  display: flex;
+  gap: 24px;
 }
 
 .item-list-adventages {
+  width: 264px;
 }
 
 .title-item-adventages {
@@ -110,10 +168,10 @@ ol {
 /* !!!!!!!!!!!!!!!! SECTION TEAM !!!!!!!!!!!!!!!!!!!! */
 .section-team {
   background-color: #f4f4fd;
+  padding-top: ;
 }
 
 .title-team {
-  background-color: #ffffff;
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
@@ -121,6 +179,8 @@ ol {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 
 .img-item-list {
@@ -139,10 +199,15 @@ ol {
 }
 
 .img-item {
+  margin: 0 auto;
+  display: flex;
+  gap: 24px;
+  padding-bottom: 120px;
 }
 
 .img-list {
   background-color: #ffffff;
+  text-align: center;
 }
 
 /* !!!!!!!!!!!!!!! PORTFOLIO !!!!!!!!!!!!!!!!!!!! */
@@ -151,14 +216,20 @@ ol {
 }
 
 .title-portfolio {
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
   letter-spacing: 0.02em;
 }
 
 .list-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  /* row-gap: 48px;
+  column-gap: 24px; */
 }
 
 .item-list-porfolio {
@@ -170,6 +241,7 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .text-item-portfolio {
@@ -177,6 +249,7 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 /* !!!!!!!!!!! FOOTER !!!!!!!!!!!!!!! */
@@ -204,3 +277,5 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/* flex-wrap */
