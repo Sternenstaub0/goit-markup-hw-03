@@ -109,7 +109,7 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
 }
@@ -125,6 +125,10 @@ img {
   margin: 0 auto;
   display: block;
   padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-btn:hover,
@@ -140,7 +144,12 @@ img {
 
 .title-adventages {
   display: none;
+  margin-bottom: 8px;
 }
+
+.visually-hidden {
+}
+
 .list-adventages {
   display: flex;
   gap: 24px;
@@ -168,7 +177,7 @@ img {
 /* !!!!!!!!!!!!!!!! SECTION TEAM !!!!!!!!!!!!!!!!!!!! */
 .section-team {
   background-color: #f4f4fd;
-  padding-top: ;
+  padding: 120px 0;
 }
 
 .title-team {
@@ -181,6 +190,7 @@ img {
   letter-spacing: 0.02em;
   padding-top: 120px;
   padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .img-item-list {
@@ -189,6 +199,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .text-item-team {
@@ -213,6 +224,8 @@ img {
 /* !!!!!!!!!!!!!!! PORTFOLIO !!!!!!!!!!!!!!!!!!!! */
 
 .section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .title-portfolio {
@@ -223,6 +236,7 @@ img {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  margin-bottom: 72px;
 }
 
 .list-portfolio {
@@ -230,9 +244,12 @@ img {
   flex-wrap: wrap;
   /* row-gap: 48px;
   column-gap: 24px; */
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .item-list-porfolio {
+  width: calc((100% - 48px) / 3);
 }
 
 .title-item-portfoli {
