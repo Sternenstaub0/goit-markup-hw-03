@@ -18,7 +18,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
 }
 
@@ -30,7 +31,6 @@ img {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  border: 1px tomato solid;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -198,7 +198,6 @@ img {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
